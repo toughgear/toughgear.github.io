@@ -1,6 +1,23 @@
-body {
+body, html {
 	margin: 0;
 	padding: 0;
-	background-color: #222;
 	text-align: center;
+	background: #fefefe;
+/*	background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298);
+	background: linear-gradient(to left, #1e3c72 , #2a5298);*/
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.container > div {
+  width: 300px;
 }
